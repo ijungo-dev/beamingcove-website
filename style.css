@@ -40,3 +40,5 @@ footer{border-top:1px solid #e6ebf2;padding:28px 0;color:var(--muted);font-size:
 .lang button.on{background:var(--brand);color:#fff}
 html[lang=ko] body{word-break:keep-all}
 @media(max-width:720px){.lang{margin-left:12px}.lang button{padding:6px 7px}}
+.lang .short{display:none}
+@media(max-width:720px){.nav-in{flex-wrap:nowrap;gap:10px}.logo{white-space:nowrap;font-size:1.05rem;gap:8px;flex-shrink:0}nav{display:flex;align-items:center;flex-wrap:nowrap;flex-shrink:0}nav .btn-sm{display:none}.lang{margin-left:0}.lang .full{display:none}.lang .short{display:inline}.lang button{padding:6px 9px;font-size:.78rem}}
