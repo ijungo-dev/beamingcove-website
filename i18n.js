@@ -1,28 +1,30 @@
 const T={
-ko:{nav_about:"소개",nav_services:"서비스",nav_contact:"문의",hero_eyebrow:"Salesforce AppExchange 전문",
-hero_title:"아이디어에서 AppExchange 출시까지,<br><span>처음부터 제대로.</span>",
-hero_lead:"Beaming Cove는 ISV와 제품 팀이 Salesforce AppExchange 애플리케이션을 설계·개발·패키징하고 보안 심사를 통과할 수 있도록 지원합니다.",
-cta_start:"상담 시작하기",cta_services:"서비스 보기",about_title:"집중력 있는 실무형 파트너",
-about_p1:"Beaming Cove는 Salesforce AppExchange 생태계에 특화된 독립 법인 컨설팅 회사입니다. 1인 기업이기 때문에 실제 작업을 수행하는 담당자와 직접 소통하며, 중간 전달이나 복잡한 관리 단계가 없습니다.",
-about_p2:"전문 분야를 의도적으로 좁혔습니다. 상용 수준의 Salesforce 앱을 개발하고, 파트너가 AppExchange에 앱을 출시하고 유지하는 데 필요한 기술 및 절차 전반을 안내합니다.",
-services_title:"제공 서비스",s1_t:"앱 개발",s1_d:"여러 구독자 조직에서도 안정적으로 확장되는 관리형 패키지를 위한 Apex, Lightning Web Components 및 플랫폼 네이티브 아키텍처.",
-s2_t:"ISV 및 AppExchange 컨설팅",s2_d:"파트너를 위한 제품·기술 가이드: 조직 전략, 패키징 모델 선택, 라이선스 설정, 릴리스 계획.",
-s3_t:"보안 심사 지원",s3_d:"심사 전 코드 점검, 스캐너 결과 개선, 제출 문서 준비, 심사 지적 사항 대응 지원.",
-s4_t:"패키징 및 릴리스",s4_d:"2세대 관리형 패키지, 버전 관리, 네임스페이스, CI/CD 파이프라인, 업그레이드에 안전한 릴리스 프로세스.",
-contact_title:"AppExchange 프로젝트를 계획 중이신가요?",contact_lead:"앱의 내용, 일정, 고민 중인 부분을 알려주세요. 신속하게 회신드리겠습니다.",footer:"© 2026 Beaming Cove. All rights reserved."},
-ja:{nav_about:"会社概要",nav_services:"サービス",nav_contact:"お問い合わせ",hero_eyebrow:"Salesforce AppExchange 専門",
-hero_title:"アイデアから AppExchange 公開まで、<br><span>最初から確かな品質で。</span>",
-hero_lead:"Beaming Cove は、ISV や製品チームによる Salesforce AppExchange アプリの設計・開発・パッケージング、そしてセキュリティレビュー通過を支援します。",
-cta_start:"相談する",cta_services:"サービスを見る",about_title:"専門性に特化した実務型パートナー",
-about_p1:"Beaming Cove は、Salesforce AppExchange エコシステムに特化した独立系の法人コンサルティング会社です。一人法人のため、実際に作業を行う担当者と直接やり取りでき、引き継ぎや煩雑な窓口対応はありません。",
-about_p2:"あえて専門領域を絞っています。商用品質の Salesforce アプリを開発し、AppExchange での公開・運用に必要な技術面とプロセス面をパートナーと共に進めます。",
-services_title:"提供サービス",s1_t:"アプリ開発",s1_d:"複数のサブスクライバー組織にスケールする管理パッケージ向けの Apex、Lightning Web Components、プラットフォームネイティブな設計。",
-s2_t:"ISV・AppExchange コンサルティング",s2_d:"パートナー向けの製品・技術アドバイス：組織戦略、パッケージモデルの選定、ライセンス設定、リリース計画。",
-s3_t:"セキュリティレビュー支援",s3_d:"レビュー前のコード診断、スキャナー指摘の修正、提出書類の準備、レビュー指摘への対応支援。",
-s4_t:"パッケージング・リリース",s4_d:"第2世代管理パッケージ、バージョン管理、名前空間、CI/CD パイプライン、アップグレードに安全なリリースプロセス。",
-contact_title:"AppExchange のプロジェクトをご検討中ですか？",contact_lead:"アプリの概要、スケジュール、お困りの点をお聞かせください。迅速にご返信いたします。",footer:"© 2026 Beaming Cove. All rights reserved."}};
+ko:{nav_about:"소개",nav_services:"하는 일",nav_contact:"문의",hero_eyebrow:"독립 Salesforce ISV",
+hero_title:"Salesforce AppExchange를 위한<br><span>자체 앱을 만듭니다.</span>",
+hero_lead:"Beaming Cove는 Salesforce 네이티브 애플리케이션을 직접 설계·개발하여 AppExchange에 출시하고 유지보수합니다. 무료 앱과 유료 앱을 모두 선보일 예정입니다.",
+cta_start:"소식 받기",cta_services:"하는 일 보기",about_title:"독립 Salesforce ISV",
+about_p1:"Beaming Cove는 Salesforce 생태계의 독립 소프트웨어 벤더(ISV)입니다. 자체 제품을 직접 개발·소유하며, Beaming Cove의 이름으로 Salesforce AppExchange에 출시합니다.",
+about_p2:"설치가 쉽고 안전하게 사용할 수 있으며 장기적으로 유지보수되는 실용적인 플랫폼 네이티브 앱에 집중합니다. 무료 앱과 유료 앱을 모두 제공할 계획입니다.",
+services_title:"주요 분야",s1_t:"Salesforce 네이티브 앱",s1_d:"Apex와 Lightning Web Components를 활용해 Salesforce Platform 위에서 네이티브로 앱을 개발하므로, 고객의 조직 내에서 바로 동작합니다.",
+s2_t:"AppExchange 출시",s2_d:"각 앱은 Salesforce 보안 심사를 통과한 후 관리형 패키지로 AppExchange에 출시됩니다.",
+s3_t:"지속적인 유지보수 및 지원",s3_d:"Salesforce 릴리스에 맞춰 앱을 최신 상태로 유지하고, 기능을 개선하며, 앱을 사용하는 고객을 지원합니다.",
+s4_t:"무료 앱과 유료 앱",s4_d:"다양한 규모의 팀이 유용하게 쓸 수 있도록 무료 앱과 유료 앱을 모두 제공할 계획입니다.",
+note:"<strong>출시 준비 중:</strong> 첫 번째 앱들을 현재 개발하고 있으며, 아직 AppExchange에는 공개되지 않았습니다.",
+contact_title:"문의하기",contact_lead:"일반 문의, 파트너십 제안, 얼리 액세스 및 앱 출시 소식을 원하시면 이메일로 연락해 주세요.",footer:"© 2026 Beaming Cove. All rights reserved."},
+ja:{nav_about:"会社概要",nav_services:"事業内容",nav_contact:"お問い合わせ",hero_eyebrow:"独立系 Salesforce ISV",
+hero_title:"Salesforce AppExchange 向けの<br><span>自社アプリを開発しています。</span>",
+hero_lead:"Beaming Cove は、Salesforce ネイティブアプリケーションを自社で設計・開発し、AppExchange で公開・保守しています。無料アプリと有料アプリの両方を提供する予定です。",
+cta_start:"最新情報を受け取る",cta_services:"事業内容を見る",about_title:"独立系 Salesforce ISV",
+about_p1:"Beaming Cove は、Salesforce エコシステムにおける独立系ソフトウェアベンダー（ISV）です。自社製品を開発・保有し、Beaming Cove の名前で Salesforce AppExchange に公開します。",
+about_p2:"導入しやすく、安心して使え、長期的に保守される実用的なプラットフォームネイティブアプリに注力しています。無料アプリと有料アプリの両方を提供する予定です。",
+services_title:"注力分野",s1_t:"Salesforce ネイティブアプリ",s1_d:"Apex と Lightning Web Components を用いて Salesforce Platform 上でネイティブに開発するため、お客様の組織内でそのまま動作します。",
+s2_t:"AppExchange で公開",s2_d:"各アプリは Salesforce のセキュリティレビューを通過した後、管理パッケージとして AppExchange で公開されます。",
+s3_t:"継続的な保守とサポート",s3_d:"Salesforce のリリースに合わせてアプリを最新の状態に保ち、改善を続け、ご利用のお客様をサポートします。",
+s4_t:"無料アプリと有料アプリ",s4_d:"さまざまな規模のチームにお役立ていただけるよう、無料アプリと有料アプリの両方を提供する予定です。",
+note:"<strong>近日公開：</strong>最初のアプリは現在開発中で、まだ AppExchange では公開されていません。",
+contact_title:"お問い合わせ",contact_lead:"一般的なお問い合わせ、パートナーシップのご相談、早期アクセスやアプリ公開のお知らせをご希望の方は、メールでご連絡ください。",footer:"© 2026 Beaming Cove. All rights reserved."}};
 const EN={};document.querySelectorAll('[data-i18n]').forEach(e=>EN[e.dataset.i18n]=e.innerHTML);T.en=EN;
-const titles={en:document.title,ko:"Beaming Cove — Salesforce AppExchange 개발 및 컨설팅",ja:"Beaming Cove — Salesforce AppExchange 開発・コンサルティング"};
+const titles={en:document.title,ko:"Beaming Cove — Salesforce AppExchange 앱 개발사",ja:"Beaming Cove — Salesforce AppExchange 向けアプリ"};
 function setLang(l){if(!T[l])l='en';document.documentElement.lang=l;document.title=titles[l];
 document.querySelectorAll('[data-i18n]').forEach(e=>{const v=T[l][e.dataset.i18n];if(v)e.innerHTML=v});
 document.querySelectorAll('[data-lang]').forEach(b=>b.classList.toggle('on',b.dataset.lang===l));

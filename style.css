@@ -42,3 +42,4 @@ html[lang=ko] body{word-break:keep-all}
 @media(max-width:720px){.lang{margin-left:12px}.lang button{padding:6px 7px}}
 .lang .short{display:none}
 @media(max-width:720px){.nav-in{flex-wrap:nowrap;gap:10px}.logo{white-space:nowrap;font-size:1.05rem;gap:8px;flex-shrink:0}nav{display:flex;align-items:center;flex-wrap:nowrap;flex-shrink:0}nav .btn-sm{display:none}.lang{margin-left:0}.lang .full{display:none}.lang .short{display:inline}.lang button{padding:6px 9px;font-size:.78rem}}
+.note{margin-top:28px;padding:16px 20px;border:1px dashed rgba(127,127,127,.45);border-radius:12px;font-size:.95rem;opacity:.9}
